@@ -1,0 +1,105 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #EDEDED;
+}
+
+/* Typography */
+.post__username,
+.post__likes,
+.post__username__short {
+    font-weight: 700;
+}
+
+.post__username,
+.post__user__location {
+    font-size: 0.75em;
+}
+
+/* Style */
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 23.44rem;
+    height: 4.20rem;
+    background-color: #fff;
+
+    margin: 0 auto;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.head__logo {
+    margin-left: 1rem;
+    width: 7.93rem;
+}
+
+.head__avatar {
+    width: 2.13rem;
+    height: 2.13rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.post-wrapper {
+    width: 23.44rem;
+    background-color: #EDEDED;
+    margin: 0 auto;
+}
+
+.post {
+    width: 23.44rem;
+    background-color: #fff;
+    padding-bottom: 0.625rem;
+    margin-bottom: 1rem;
+}
+
+.post__header {
+    display: flex;
+    padding-top: 0.625rem;
+    padding-left: 0.625rem;
+}
+
+.post__avatar {
+    width: 2.12rem;
+    height: 2.12rem;
+    border-radius: 50%;
+}
+
+.post__user__details {
+    margin-left: 0.43rem;
+}
+
+.post__user__portrait__container {
+    margin-top: 0.68rem;
+    width: 100%;
+}
+
+.post__user__portrait {
+    width: 23.43rem;
+}
+
+.post__footer {
+    padding-top: 1.31rem;
+    margin-left: 0.625rem;
+}
+
+.post__icon {
+    width: 1.5rem;
+    margin-right: 1.25rem;
+}
+
+.post__interactive__icons {
+    display: flex;
+    align-items: center;
+}
+
+.post__icon:hover,
+.post__icon:focus {
+    cursor: pointer;
+    filter: opacity(0.5);
+}
+
+.post__likes,
+.post__comments {
+    margin-top: 0.75rem;
+}
